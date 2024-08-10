@@ -3,76 +3,71 @@ ul.Voice_voiceStates__a121W {
     display: flex;
     height: fit-content;
     flex-wrap: wrap;
-    gap: 8px;
     padding: 0;
-    justify-content: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+
+/* left and right margins of screen */
+body {
+ padding-left: 127px;
+ padding-right: 134px;
 }
 
 /* profile */
 li.Voice_voiceState__OCoZh {
     border-radius: 4px;
     overflow: hidden;
-    width: 100px;
+    width: 214x;
     height: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     position: relative;
     border: 2px solid #1E1E1E;
-    background: linear-gradient(0deg, #1E1E1E, #3d3d3d);
 }
 
 /* profile pic */
 img.Voice_avatar__htiqH {
     border-radius: 0;
-    height: 100px;
-    width: 100px;
+    height: 214px;
+    width: 214px;
     float: none;
     margin: 0;
     border: none;
+    filter: grayscale(100%)
 }
 
 /* profile pic when speaking */
 img.Voice_avatarSpeaking__lE\+4m {
-    animation: 0.1s infinite ease-in-out alternate-reverse talking;
-    background-image: url('https://classic.battle.net/war3/images/orc/units/portraits/grunt.gif') !important;
+    filter: grayscale(0%);
 }
 
 /* profile name div */
 div.Voice_user__8fGwX {
     padding: 0;
     min-height: 32px;
-    width: 100px;
+    width: 214px;
+    position: absolute;
+    bottom: 0;
 }
+
 
 /* profile name span */
 span.Voice_name__TALd9 {
     border-radius: 0;
-    padding: 8px;
+    padding: 4px;
     width: 100%;
-    display: flex;
+    position: absolute;
     justify-content: center;
     text-align: center;
+    bottom: 0;
     box-sizing: border-box;
     word-break: break-word;
-    font-family: Bahnschrift, sans-serif;
-    font-size: 14px !important;
-    color: #9CFF19 !important;
-    background-color: unset !important;
-}
-
-/* talking animation */
-@keyframes talking {
-    0% {
-        transform: translateY(2px);
-    }
-    25% {
-        transform: translateY(0px);
-    }
-    75% {
-        transform: translateY(-6px);
-    }
-    100% {
-        transform: translateY(-8px);
-    }
+    font-family: Manrope;
+    font-size: 23px !important;
+    color: #fff !important;
+    font-stretch: 130% !important;
+    background:linear-gradient(to top, #1E1E1E 0%, transparent 80%)  !important;
 }
