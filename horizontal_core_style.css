@@ -70,4 +70,9 @@ span.Voice_name__TALd9 {
     color: #fff !important;
     font-stretch: 130% !important;
     background:linear-gradient(to top, #1E1E1E 0%, transparent 80%)  !important;
+    text-shadow: 
+    2px 2px 2px #0e0e0e, 
+    0 2px 2px #0e0e0e, 
+    -2px 0 2px #0e0e0e, 
+    0 -2px 2px #0e0e0e;
 }
