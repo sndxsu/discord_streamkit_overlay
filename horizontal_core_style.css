@@ -36,12 +36,13 @@ img.Voice_avatar__htiqH {
     float: none;
     margin: 0;
     border: none;
-    filter: grayscale(100%)
+    filter: grayscale(100%) contrast(60%);
 }
 
 /* profile pic when speaking */
 img.Voice_avatarSpeaking__lE\+4m {
     filter: grayscale(0%);
+    background-color: rgba(0,0,0,.0);
 }
 
 /* profile name div */
