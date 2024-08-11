@@ -1,3 +1,6 @@
+/* hide by user-id*/
+[data-userid="0"] { display: none !important; }
+
 /* list of people */
 ul.Voice_voiceStates__a121W {
     display: flex;
